@@ -65,7 +65,7 @@ app.post("/", function(request, response){
     response.render('result', {interpret: interpretation})
 });
 
-app.post("/", function(request, response){
-    response.render('bmiCalculator', {})
-})
+// app.post("/", function(request, response){
+//     response.render('bmiCalculator', {})
+// })
 
